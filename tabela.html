@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table, th, td{
+            border: 2px solid black;
+            margin: auto;
+            margin-top: 15%;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+        tr:nth-child(odd) {
+            background-color: bisque;
+        }
+        body{
+            background-image: url("https://wallpapers.com/images/hd/coquette-z7g866zr50wqtz0v.jpg");
+        }
+    </style>
+    
+</head>
+<body>
+    <table>
+        <tr>
+            <th title="Nome dos produtos">Nome</th>
+            <th title="Link da página para mais informações dos produtos">Link</th>
+            <th title="Foto meramente ilustrativa">Foto</th>
+            <th title="Valor estimado">Valor</th>
+            <td rowspan="4"><h3>O quantidade total dos produtos é 3</h3></td>
+        </tr>
+            
+        <tr>
+            <td>Pão</td>
+            <td><a href="./pao.html" target="_blank" rel="noopener noreferrer">Site do pão</a></td>
+            <td><img width="100" height="100" src="https://png.pngtree.com/png-vector/20250429/ourmid/pngtree-loaves-of-bread-on-a-light-backdrop-png-image_16136987.png" alt=""></td>
+            <td>R$ 5,00</td>
+        </tr>
+
+        <tr>
+            <td>Café</td>
+            <td><a href="./cafe.html" target="_blank" rel="noopener noreferrer">Site do café</a></td>
+            <td><img width="100" height="100" src="https://static.vecteezy.com/system/resources/thumbnails/053/581/271/small/a-white-coffee-cup-with-steam-rising-from-it-sits-on-a-white-saucer-png.png" alt=""></td>
+            <td>R$ 12,00</td>
+        </tr>
+
+        <tr>
+            <td>Laranja</td>
+            <td><a href="./laranja.html" target="_blank" rel="noopener noreferrer">Site da laranja</a></td>
+            <td><img width="100" height="100" src="https://static.vecteezy.com/system/resources/thumbnails/041/734/351/small/ai-generated-fresh-orange-on-transparent-background-png.png" alt=""></td>
+            <td>R$ 15,00</td>
+        </tr>
+
+        <tr>
+            <td colspan="5"><h2>O valor total dos produtos é R$ 32,00</h2></td>
+        </tr>
+    </table>
+</body>
+</html>

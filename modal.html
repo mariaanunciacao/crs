@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        MODAL
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<h3>Confirme sua inscrição!</h3>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Aceite dos termos
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Aceite dos termos</h1>
+        
+      </div>
+      <div class="modal-body">
+        Clique em Salvar caso você esteja de acordo com os termos
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceito</button>
+        <button type="button" class="btn btn-secondary">Não aceito</button>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Informativo
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        É de extrema importância que as informações sejam preenchidas corretamente
+      </div>
+      <div>
+        <form action="" method="get" style="justify-content: center; align-items: center; margin-left: 25px;">
+<h3>Preencha o cadastro para participar do evento!</h3>
+<br>
+<table>
+<tr>
+<td><label for="nome">Insira seu nome</label></td>
+</tr>
+<tr>
+<td><input type="text" placeholder="Digite seu nome" name="nome" id="nome" required></td>
+</tr>
+<tr>
+<td><label for="data">Insira sua data de nascimento</label></td>
+</tr>
+<tr>
+<td><input type="date" placeholder="Data de nascimento" name="data" id="data"></td>
+</tr>
+<tr>
+<td><label for="email">Insira seu email</label></td>
+</tr>
+<tr>
+<td><input type="email" placeholder="Digite seu email" name="email" id="email" required></td>
+</tr>
+<tr>
+<td><label for="senha">Insira sua senha</label></td>
+</tr>
+<tr>
+<td><input type="password" placeholder="Digite sua senha" name="senha" id="senha" required></td>
+</tr>
+<tr>
+<td><h6>Seleciona a opção que incluir a sua idade atual:</h6></td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="unico" id="crianca">
+<label for="crianca">12 anos ou menos</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="unico" id="adolescente">
+<label for="adolescente">Entre 13 e 17 anos</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="unico" id="adulto">
+<label for="adulto">Entre 18 e 64 anos</label>
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio" name="unico" id="idoso">
+<label for="idoso">65 anos ou mais</label>
+</td>
+</tr>
+</table>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/200" style="color: aliceblue;">Salvar</a></button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
